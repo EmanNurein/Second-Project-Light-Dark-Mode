@@ -1,0 +1,329 @@
+body{
+    margin: auto;
+    padding:1px 1px;
+    background-color: white;
+    color: black;
+}
+
+.mydark{
+    background-color: black;
+    color: white;
+}
+
+button{
+    width: 21%;
+    height: 32px;
+    background-color:#212529;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left:0%;
+    margin-top: 0%;
+    border: 0px solid blanchedalmond;
+    text-align: center;
+    padding: 5px;
+    color: blanchedalmond;
+}
+
+header{
+    height: 60px;
+    /*border: 2px solid black;*/
+    /*background-color: silver;*/
+}
+.navbar-expand-lg{
+    height: 60px;
+}
+
+.navbar-brand{
+    font-size: 17px;
+}
+
+a{ 
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+.nav-link{
+    color:blanchedalmond;
+}
+
+.navbar-nav{
+    margin-top: 1.5%;
+}
+
+#icon{
+    float: left;
+}
+
+
+
+#search{
+    height: 450px;
+    /*border: 2px solid orange;*/
+    background-image: url("https://i.ibb.co/tmDyLqd/4k-video-footage-of-shelves-stocked-with-various-medicinal-products-in-a-pharmacy.jpg" );
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: 100% 500px;
+}
+
+.carousel-item > img{
+    height: 450px !important;
+}
+
+#logo{
+    height: 120px;
+    width: 120px;
+    background-color: #eaeef2;
+    border-radius: 50%;
+    margin-left: 45%;
+    margin-top: 3%;
+    position: absolute;
+    font-size: 45px;
+    color: #0085e3;
+    animation:revolve 10s infinite;
+}
+
+@keyframes revolve{
+
+    0% {transform:rotate(30deg);}
+    25% {transform:rotate(90deg);}
+    50% {transform:rotate(180deg);}
+    75% {transform:rotate(270deg);}
+    100% {transform:rotate(360deg);}
+}
+
+#logo > span{
+    margin-left:12%;
+    margin-top: 20%;
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#logo:hover{
+    background-color: rgba(255, 255, 255,.5);
+    color: purple;
+    transform:rotate(270deg);
+
+}
+
+#AboutUs{
+    height: 400px;
+    /*border: 2px solid rgb(170, 19, 52);*/
+}
+
+
+img{
+    display: inline-block;
+    width: 100%;
+    margin-left: 3%; 
+}
+
+h2{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+h1{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style:italic;
+    margin-top: 2%;
+}
+
+ h5{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center; 
+}
+
+p{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;     
+}
+
+
+#ChooseUs{
+    height: 650px;
+    /*border: 2px solid rgb(170, 19, 52);*/
+  
+
+}
+.gallery{
+    /*border: 1px solid rgb(230, 95, 95);*/
+    float: left;
+    width: 340px;
+    margin-left: 6%;
+    margin-top: 2%;
+    
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+.gallery img {
+    width: 100%;
+    height: 300px;
+    border-radius: 50%;
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 6%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.desc {
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+.fw-bold{
+    margin-top: -1%;
+    
+}
+.container>img{
+    margin-right: 5%;
+    margin-top: 0%;
+    
+}
+
+.card{
+    color:black;
+    float: right;
+    margin-top: 2%;
+    width: 90%;
+    margin-right: 5%;
+    border: none;
+    
+}
+
+.card-body{
+    margin-top: 4%;
+}
+
+.card-title{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 6%;
+}
+
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-left: 3%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.card-header{
+    text-align: center;
+    margin-top: -6%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+    border: none;
+    background-color: white;
+}
+li{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#Products{
+    height: 460px;
+    /*border: 2px solid lightcoral;*/
+}
+
+.card> img{
+    height: 200px;
+    margin-top: 2%;
+    width: 90%;
+    
+}
+
+.container{
+    width: 50%;
+    
+}
+
+.panel-heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.btn-primary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: dodgerblue;
+    font-size: 17px;
+    margin-top: 3%;
+}
+
+.center{
+    margin-left: 40%;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+ textarea {
+    width: 100%;
+    padding: 12px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+}
+ 
+.modal-header{
+    text-align: center;
+}
+
+
+.modal-body{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.modal-footer > .btn{
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: center;
+    
+}
+footer{
+    height: 150px;
+    /*border: 2px solid lightseagreen;*/
+}
+
+.footer-menu{
+    float: left ;
+    margin-top: 3%;
+    position: relative;
+    
+}
+
+.footer-menu a{
+    color: black;
+    padding: 9px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .footer-menu a:hover{
+    color: blue;
+  }
+  

@@ -1,0 +1,30 @@
+.container{
+    width: 50%;
+}
+
+.panel-heading{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}   
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn-primary{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: dodgerblue;
+    font-size: 17px;
+    margin-bottom: 2%;
+}
+
+.center{
+    margin-left: 40%;
+    position: relative;
+
+}
+p{
+    font-size: 17px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
